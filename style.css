@@ -1,0 +1,270 @@
+.my-container {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+  }
+  
+  .slide-my-container {
+    position: absolute;
+    left: 0;
+    width: 75%;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide > * {
+    position: relative;
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .slide-toggle-my-container {
+    position: absolute;
+    width: 100%;
+    right:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide-toggle {
+    font-size: 1.5em;
+    cursor: pointer;
+    user-select: none;
+    z-index: 99 !important;
+  }
+  .slide-toggle-top {
+    font-size: 1.5em;
+    cursor: pointer;
+    user-select: none;
+    z-index: 97 !important;
+    position: fixed;
+    top: 0;
+    padding-top: 8rem;
+  }
+  .slide-toggle-bottom {
+    font-size: 1.5em;
+    cursor: pointer;
+    user-select: none;
+    z-index: 99 !important;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 3rem;
+  }
+  
+/* my style */
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    -webkit-text-decoration-line: none !important;
+    text-decoration-line: none !important;
+    display: block !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    color: rgb(39, 39, 39) !important;
+    font-family: 'TCCC-UnityText-Regular' !important;
+    padding: 1rem 1.2rem !important;
+    line-height: 0.825rem !important;
+    border-width: 1px !important;
+    border-top: 1px solid #79797900 !important;
+    white-space: nowrap !important;
+    cursor: pointer !important;
+
+}
+.my-font{
+    font-size: 2rem;
+    line-height: 2rem;
+    color: white;
+    font-family: "TCCC-UnityHeadline-Regular", "TCCC-UnityHeadline", sans-serif !important;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.6)) !important;
+}
+.my-p-font{
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    color: white;
+    font-family: "TCCC-UnityHeadline-Regular", "TCCC-UnityHeadline", sans-serif !important;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.6)) !important;
+}
+.my-s-font{
+    font-family: "TCCC-UnityHeadline-Regular", "TCCC-UnityHeadline", sans-serif !important;
+    color: #F2F2F2 !important;
+    font-style: normal !important;
+    font-size: 0.79rem !important;
+    line-height: 1rem !important;
+    line-height: normal !important;
+}
+.my-m-font{
+    font-family: "TCCC-UnityHeadline-Regular", "TCCC-UnityHeadline", sans-serif !important;
+    color: #F2F2F2 !important;
+    font-style: normal !important;
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+    line-height: normal !important;
+}
+
+.sec1{ 
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.14)),url(./bg1.webp);
+    width: 100%;
+height: 95vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.sec2{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.396)), url(./bg2.webp);
+    width: 100%;
+ height: 95vh;  
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: flex-end;
+}
+.sec3{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.536), rgba(0, 0, 0, 0.542)), url(./bg3.webp);
+    width: 100%;
+   height: 95vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-end;
+}
+.sec4{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.677), rgba(0, 0, 0, 0.711)), url(./bg4.webp);
+    width: 100%;
+   height: 95vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: flex-end;
+}
+.sec5{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url(https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/home-position-6.jpg);
+    width: 100%;
+   height: 95vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-end;
+}
+
+.p-5-my{
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 8rem !important;
+}
+.mx-my{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+footer{
+    background-color: #242424;
+    z-index: 99;
+    position: relative;
+}
+
+
+
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+
+
+.upsvg{
+    color: white !important;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.6)) !important;
+
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #242424;
+}
+
+  
+  
+@media screen and (max-width: 750px)  {
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    border-bottom: 1px solid rgb(31, 31, 31);
+    }
+
+    .p-5-my{
+            padding-top: 0rem !important;
+            padding-bottom: 7rem !important;
+            padding-right: 2rem !important;
+            padding-left: 2rem !important;
+    }
+    .mx-my{
+            margin-right: 0;
+            margin-left: 0;
+    }
+    .justify-content-sm-center-my{
+            justify-content: center !important;
+    }
+    .text-sm-center-my{
+            text-align: center !important;
+    }
+    
+    .border-my{
+            border-top: 1px solid rgb(218, 218, 218);
+    }
+.upsvg{
+    width: 80px;
+    height: 80px;
+}
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 60.33333333% !important;
+}
+    .my-font{
+        font-size: 5rem !important;
+        line-height: 5rem !important;
+        color: rgb(255, 255, 255);
+        font-family: "TCCC-UnityHeadline-Regular", "TCCC-UnityHeadline", sans-serif !important;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.6)) !important;
+    }
+    .my-p-font{
+        font-size: 3.25rem !important;
+        line-height: 3.625rem !important;
+        color: white;
+        font-family: "TCCC-UnityHeadline-Regular", "TCCC-UnityHeadline", sans-serif !important;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.6)) !important;
+    }
+    
+}
